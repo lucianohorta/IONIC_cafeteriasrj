@@ -1,0 +1,39 @@
+page-laranjeiras {
+
+    //header:
+    .toolbar-background-md {
+        background: #5f0e0e !important;
+    }
+    .toolbar-title-md {
+        color: white !important;
+        text-align: center;
+    }
+
+    //card:
+    ion-card {
+        position: relative;
+        text-align: center;
+    }
+    .card-container {
+        border-radius: 20px !important;
+        margin-bottom: 7%;
+        border: 1px solid #3a0b0b;
+    }
+    .img-cafeteria {
+        filter:sepia(50%);
+        height: 200px;
+    }
+    .card-title{
+        background: #4a080c;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        padding: 4px 0;
+        font-family: 'Nunito';
+        font-size: 1.4em;
+        color: #e6dbdb;
+    }
+
+
+
+}

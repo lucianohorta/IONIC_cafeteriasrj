@@ -1,0 +1,18 @@
+header -> brown
+
+subheader ->
+    background: #8e3b3b4f;
+    color: #350000;
+    border-bottom: 1px solid #c5a8a8;
+
+subsubheader ->
+    background: #a52a2a2b;
+
+fechado agora -> color: #ef6945;
+
+ver todos horarios -> color: #4a4a4a;
+
+mapa, ligar e site -> brown  e   border-bottom: 1px solid #c5a8a8;  
+
+
+background do app!!!: #ffd9d9

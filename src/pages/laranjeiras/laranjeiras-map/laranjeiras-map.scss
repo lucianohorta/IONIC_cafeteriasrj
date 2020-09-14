@@ -1,0 +1,13 @@
+page-laranjeiras-map {
+   .scroll-content {
+        padding: 0 !important;
+   }
+     #map {
+          height: 100%;
+          width: 100%;
+     }
+     .gm-style-iw.gm-style-iw-c, .gm-style .gm-style-iw-t::after { background: #6f1e1e !important; }            
+     .gm-style-iw-d { padding: 4px 17px 17px 7px; overflow: hidden !important; }       
+     .gm-style-iw-d div div span { color: white !important; }
+     .gm-style-iw.gm-style-iw-c button img { filter: invert(100%); }
+}

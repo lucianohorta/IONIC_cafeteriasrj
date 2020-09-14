@@ -14,3 +14,100 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@font-face {
+    font-family: 'axis';
+    src: url('../assets/fonts/axis/axis-extra-bold.otf') format('opentype');
+    }
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../assets/fonts/nunito/Nunito-Regular.ttf') format('truetype');
+    }
+
+    .content-md {
+        background-color: #e4d1d1 !important;
+    }
+
+
+// ------------------- Cor do alerta do GPS -------------------------
+    .alertCustomCss {
+        color: white; // text color for basic alerts
+        button {
+            color: white !important;
+            background-color: color($colors, secondary, base) !important;
+        }
+        .alert-message {
+            color: white; // text color for confirm alerts
+        }
+        .alert-wrapper {
+            background-color: color($colors, dark, base);
+        }
+      }
+      .alert-wrapper {
+          border-radius: 20px !important;
+      }
+      .alert-button {
+        border-radius: 7px !important;
+        padding: 10px !important;
+        padding-right: 12px !important;
+      }
+
+
+// ---------------------------------------------------- header:
+    .toolbar-background-md,
+    .toolbar-md-secondary .toolbar-background-md {
+        background: #6b1616 !important;
+    }
+    .toolbar-title-md {
+        // font-family: axis;
+        color: white !important;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+// ---------------------------------------------------- tab embaixo:
+    .tabs-md .tab-button[aria-selected=true] .tab-button-icon,
+    .tabs-md .tab-button-icon,
+    .tab-button-text {
+        color: white;
+    }
+    .tabs-md .tab-button {        // fundo da tab embaixo
+        background: #6b1616 !important
+    }
+
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: white !important;
+    }
+
+// ---------------------------------------------------- mapas:
+
+    .leaflet-control-attribution.leaflet-control {    // Coffee Finder marca no mapa
+        padding-left: 0px !important;
+        background: #fff2f2 !important;
+        color: #382929 !important;
+    }
+    
+    .leaflet-control-attribution a {   // leaflet marca embaixo mapa
+        display: none;
+    }
+
+    .leaflet-popup-content-wrapper {   // fundo do popup mapa
+        background: #efdfdf !important;
+        border: 1px solid #a59090 !important;
+    }
+    
+    .leaflet-popup-tip {   // fundo do popup seta mapa
+        background: #c79b9b !important;
+        border: 1px solid #a59090 !important;
+    }
+
+    .leaflet-popup-content a,
+    .leaflet-popup-content p {    // link no popup mapa
+        color: #4a0606 !important;
+        text-decoration: none !important;
+    }
+    .leaflet-popup-close-button {   // botao de fechar popup mapa
+        display: none;
+    }
+
